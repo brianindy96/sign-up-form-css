@@ -21,4 +21,22 @@ body{
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    display: flex;
+}
+
+/* Container Box-left and right size */
+.container .box-left,
+.box-right{
+    width: 50%;
+}
+
+.container .box-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.description,
+.form,
+.footer{
+    flex: 1;
 }
